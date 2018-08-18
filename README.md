@@ -16,6 +16,14 @@ your installation of `hue_light_control` in `params.cfg`.  Then run:
 
 `python control_lights.py`
 
+## Hardware
+
+You'll need an IR sensor, such as TSOP38238.
+
+Wire it up to your single board computer or microcontroller similar to the image below.
+
+![wiring diagram](https://raw.githubusercontent.com/nickbild/infrared_hue_light_control/master/readme/ir_decoder.jpg)
+
 ## About the Author
 
 https://nickbild79.firebaseapp.com/#!/
