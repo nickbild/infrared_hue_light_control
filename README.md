@@ -4,9 +4,9 @@ Control Philips Hue lights with any infrared remote control.
 
 ## Dependencies
 
-Python 2.7
-https://github.com/nickbild/hue_light_control
-ConfigParser
+Python 2.7  
+https://github.com/nickbild/hue_light_control  
+ConfigParser  
 RPi.GPIO
 
 ## Usage
