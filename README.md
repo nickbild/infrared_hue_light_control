@@ -1,6 +1,6 @@
 # Infrared Philips Hue Light Control
 
-Control Philips Hue lights with any infrared remote control.
+Control Philips Hue lights with any (Sanyo NC095 DVD codes included) infrared remote control.
 
 ## Dependencies
 
