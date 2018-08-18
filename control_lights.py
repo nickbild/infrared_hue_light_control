@@ -17,6 +17,11 @@ while True:
 	timings = capture_code(ir_sensor_pin)
 	light_id = decode(timings)
 
+	if light_id == -1:
+		print "Unable to decode signal."
+		sleep(0.2)
+		continue
+
 	status = subprocess.check_output("python " + hue_light_control_dir + "light_control.py list", shell=True)
 	print "Current status of lights:\n" + status
 
